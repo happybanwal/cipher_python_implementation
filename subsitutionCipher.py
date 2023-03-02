@@ -16,12 +16,6 @@ def encrypt(key, message):
         # print(message[i])
         cipher = key[message[i]] + cipher
     return cipher
-    # for c in message:
-    #     if c in key:
-    #         cipher += key[c]
-    #     else:
-    #         cipher += c
-    #     return cipher
 
 
 def decryption_key(key):
